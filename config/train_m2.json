@@ -1,0 +1,26 @@
+{
+    "train": [
+        {
+            "root": "datasets/master_thesis",
+            "anno": "datasets/master_thesis/500000/train/odvg.jsonl",
+            "label_map": "datasets/master_thesis/500000/train/label_map.json",
+            "dataset_mode": "odvg"
+        }
+    ],
+    "val": [
+        {
+            "root": "datasets/master_thesis",
+            "anno": "datasets/master_thesis/500000/val/odvg.jsonl",
+            "label_map": "datasets/master_thesis/500000/train/label_map.json",
+            "dataset_mode": "odvg"
+        }
+    ],
+    "test": [
+        {
+            "root": "datasets/master_thesis/500000/test",
+            "anno": "datasets/master_thesis/500000/test/merge.json",
+            "label_map": null,
+            "dataset_mode": "coco"
+        }
+    ]
+}

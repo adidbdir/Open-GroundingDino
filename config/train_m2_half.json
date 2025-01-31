@@ -1,0 +1,26 @@
+{
+    "train": [
+        {
+            "root": "datasets/m2_half/train",
+            "anno": "datasets/m2_half/train/odvg_color.jsonl",
+            "label_map": "datasets/m2_half/train/label_map.json",
+            "dataset_mode": "odvg"
+        }
+    ],
+    "val": [
+        {
+            "root": "datasets/m2_half/val",
+            "anno": "datasets/m2_half/val/annotations_200.json",
+            "label_map": null,
+            "dataset_mode": "coco"
+        }
+    ],
+    "test": [
+        {
+            "root": "datasets/m2_half/test",
+            "anno": "datasets/m2_half/test/merge.json",
+            "label_map": null,
+            "dataset_mode": "coco"
+        }
+    ]
+}
